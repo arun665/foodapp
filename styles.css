@@ -1,0 +1,427 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: orange;
+
+    color:white;;
+  }
+
+  #left a{
+      font-size:2em;
+  }
+  #right{
+      float:right;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 10vh;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+
+
+    text-align: center;
+    padding: 20px 32px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(255, 145, 0);
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+.carousel{
+    width:100%;;
+    background:#000;
+    
+    margin: 0 auto;
+    padding: 10px 10px 0 10px;
+    
+    margin-top:5%;
+
+}
+
+
+
+
+
+  
+  
+
+
+  
+  
+
+  
+.card{
+    
+    padding: 20px;
+    float: left;
+    
+    margin:1px;
+       
+    margin-top:2%;
+    width: 29%; /* The width is 20%, by default */
+  }
+  #carddiv{
+      width:95%;
+      
+      padding:5px;
+      border: 2px solid grey;
+      border:2px solid grey;
+      border-radius: 25px;;
+    box-shadow:10px 10px 10px grey;
+  }
+
+  #cardimg{
+text-align: center;;
+
+width:100%;
+  }
+  
+
+
+
+#div3head{
+    text-align: center;
+    margin-top:5%;
+}
+
+#formdiv{
+    border-radius: 40px;;
+    width:80%;
+    margin-left: 10%;;
+    background-color: orange;
+    max-height:100vh;;;
+
+overflow-y: hidden;
+
+}
+
+#leftform{
+    width:40%;
+    float: left;
+
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    height:50vh;
+    border-radius:40px 0px 0px 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+color:white;
+align-items: center;
+text-align: center;
+margin-top: auto;
+margin-right: auto;    
+}
+
+
+
+#rightform{
+    width:55%;
+float:left;
+    padding:2%;
+    background-color: white;
+    border:2px solid orange;
+border-radius:0px 40px 40px 0px;
+
+    
+    
+}
+.slider{
+    width:80%;
+    margin-left:10%;
+}
+#sliderimg{
+
+    margin-top:5%;
+    height:80vh;
+ 
+ 
+ width:80%;
+}
+form input{
+width:45%;
+padding:10px;
+font-size:1em;
+    margin:3px;
+    margin-bottom:5%;
+    border: 1px solid orange;
+    
+}
+
+form button{
+    padding:10px;
+    width:100%;
+    background-color: orange;
+    color:white;
+
+}
+form textarea{
+    width:90%;
+    padding:10px;
+    font-size:1em;
+        margin:3px;
+        margin-bottom:5%;
+        border: 1px solid orange;
+        
+    }
+    
+
+footer{
+    height:10vh;
+    margin-top:10%;
+    background-color: black;
+}
+
+
+  @media screen and (min-width: 600px) and (max-width:996px) {
+
+    .slider{
+        width:80%;
+        margin-left:10%;
+    }
+    #sliderimg{
+    
+        margin-top:5%;
+        height:80vh;
+     
+     
+     width:80%;
+    }
+    .card{
+    
+        padding: 20px;
+        float: left;
+        
+        margin:1px;
+           
+        margin-top:5%;
+        width: 40%; /* The width is 20%, by default */
+      }
+      #carddiv{
+          width:95%;
+          
+          padding:5px;
+          border: 2px solid grey;
+          border:2px solid grey;
+          border-radius: 25px;;
+        box-shadow:10px 10px 10px grey;
+      }
+    
+      #cardimg{
+    text-align: center;;
+    margin-left:10%;
+    width:80%;
+      }
+
+
+
+
+
+
+
+      
+#formdiv{
+    border-radius: 40px;;
+    width:80%;
+    margin-left: 10%;;
+    background-color: orange;
+max-height: 120vh;
+display: block;
+
+}
+
+#leftform{
+    width:80%;
+    float: left;
+
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    height:30vh;
+    border-radius:40px 0px 0px 40px;
+
+    display: block;
+
+
+color:white;
+align-items: center;
+text-align: center;
+margin-top: auto;
+margin-right: auto;    
+}
+
+
+
+#rightform{
+    width:90%;
+float:left;
+
+display: block;margin-left:5%;
+
+    padding:2%;
+    background-color: white;
+    border:2px solid orange;
+border-radius:0px 40px 40px 0px;
+
+    
+    
+}
+
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+
+    .slider{
+        width:80%;
+        margin-left:10%;
+    }
+    #sliderimg{
+    
+        margin-top:5%;
+        height:40vh;
+     
+     
+     width:80%;
+    }
+    .card{
+    
+        padding: 20px;
+        float: left;
+        
+        margin:1px;
+           
+        margin-top:5%;
+        width: 90%; /* The width is 20%, by default */
+      }
+      #carddiv{
+          width:95%;
+          
+          padding:5px;
+          border: 2px solid grey;
+          border:2px solid grey;
+          border-radius: 25px;;
+        box-shadow:10px 10px 10px grey;
+      }
+    
+      #cardimg{
+    text-align: center;;
+    margin-left:10%;
+    width:80%;
+      }
+
+
+
+
+
+
+      
+#formdiv{
+    border-radius: 40px;;
+    width:90%;
+    margin-left: 5%;;
+    background-color: orange;
+max-height:100vh;;;
+
+}
+
+#leftform{
+    width:100%;
+    float: left;
+
+    display: block;
+
+    background-size: cover;
+    background-size: cover;
+    height:30vh;
+    border-radius:40px 0px 0px 40px;
+
+  
+
+color:white;
+align-items: center;
+text-align: center;
+margin-top: auto;
+margin-right: auto;    
+}
+
+
+
+#rightform{
+    width:100%; display: block;
+float:left;
+    padding:2%;
+    background-color: white;
+    border:2px solid orange;
+border-radius:0px 40px 40px 0px;
+
+    
+    
+}
+  }
+  
+  /* Use a media query to add a break point at 800px: */
+  @media screen and (max-width: 800px) {
+    .cardleft, .cardmain, .cardright {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+
+
+  
+
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      
+      right: 0;
+      top: 0;
+    }
+    #home{
+        display: none;
+    }
+  
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+      
+    }
+  }
